@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import ‘@angular/material/prebuilt-themes/deeppurple-amber.css’;
+
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-center {
+    justify-content: center;
+}
+
+.v-center {
+    align-items: center;
+}

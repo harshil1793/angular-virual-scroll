@@ -1,0 +1,7 @@
+<div class="container">
+    <cdk-virtual-scroll-viewport itemSize="200" class="viewport">
+        <div *cdkVirtualFor="let photo of photos?.photos">
+            <img mat-card-image [src]="photo.src.landscape" [alt]="photo.photographer">
+        </div>
+    </cdk-virtual-scroll-viewport>
+</div>

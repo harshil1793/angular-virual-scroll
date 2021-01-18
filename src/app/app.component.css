@@ -1,0 +1,17 @@
+header {
+    padding: 0 1em;
+    background: transparent;
+}
+
+h2 {
+    color: #0066ff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+i {
+    margin-left: 5px;
+    margin-top: 8px;
+    color: #646369;
+    font-size: 20px;
+}
